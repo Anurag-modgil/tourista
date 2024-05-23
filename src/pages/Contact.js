@@ -23,13 +23,11 @@ export const Contact = () => {
       <hr id="line" />
 
       <div className="callbox">
-        <i className="fas fa-phone"></i> +91-7654772728
+        <i className="fas fa-phone"></i> +91-7015669928
       </div>
+      
       <div className="callbox">
-        <i className="fas fa-briefcase"></i> 0836-5556765
-      </div>
-      <div className="callbox">
-        <i className="fas fa-envelope"></i> info.trabebo@gmail.com
+        <i className="fas fa-envelope"></i> info.touristatravel@gmail.com
       </div>
     </>
   );

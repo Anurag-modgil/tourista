@@ -30,18 +30,18 @@ export const Home = () => {
               <i className="fas fa-envelope" id="ficons"></i>
               <p>
                 <a href="mailto:info.trabebo@gmail.com">
-                  info.trabebo@gmail.com
+                  info.touristravel@gmail.com
                 </a>
               </p>
             </div>
             <div className="socialm">
               <i className="fab fa-instagram" id="ficons"></i>
-              <p>trabebo_1</p>
+              <p>touristatravel_1</p>
             </div>
             <div className="call">
               <i className="fas fa-phone-alt" id="ficons"></i>
               <p>
-                <a href="tel:7259987584">+91-7259987584</a>
+                <a href="tel:7259987584">+91-7015669928</a>
               </p>
             </div>
           </div>

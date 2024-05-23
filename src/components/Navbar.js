@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <Link to="/"><span>T</span>rabebo</Link>
+        <Link to="/"><span>T</span>ourista</Link> <Link to="/"><span>T</span>rack</Link>
         <p>Travel made easy</p>
       </div>
       <input type="checkbox" id="check" />

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const branchLoc =
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3847.2195600952487!2d75.12117641437735!3d15.364590962016948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb8d7356f725b09%3A0xe85a2e8c0e433478!2sOaks%202.0!5e0!3m2!1sen!2sin!4v1633436419361!5m2!1sen!2sin";
+    "https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=jmi,radour+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed";
   return (
     <>
       <div className="footer">
@@ -13,8 +13,7 @@ export const Footer = () => {
               <span id="fdiff">A</span>bout us
             </h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est,
-              ullam maxime ratione porro quaerat in?
+            A comprehensive travel site offering seamless booking for flights, hotels and activitesn and real-time updates. 
             </p>
           </div>
           <div className="branch">
@@ -22,13 +21,15 @@ export const Footer = () => {
               <span id="fdiff">B</span>ranch Location
             </h2>
             <iframe
-              src={branchLoc}
-              style={{ border: 0 }}
-              id="map"
-              allowFullScreen=""
-              loading="lazy"
-              title="Brach Location"
-            ></iframe>
+    width="100%"
+    height="200"
+    frameborder="0"
+    scrolling="no"
+    marginheight="0"
+    marginwidth="0"
+    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=jmi,radour+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+  >
+  </iframe>
           </div>
           <div className="quicklinks">
             <h2>
@@ -75,7 +76,7 @@ export const Footer = () => {
         <hr />
         <div className="copy">
           <h2>
-            Copyright &copy; <span id="fdiff">T</span>rabebo 2020-21 | All
+            Copyright &copy; <span id="fdiff">T</span>ouristatrack  2023-24 | All
             Rights Reserved
           </h2>
         </div>
